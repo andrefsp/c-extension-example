@@ -10,6 +10,7 @@ func custom_str_len(quote string) int {
 }
 
 func custom_str(quote string) string {
+	// Bind call to custom library
 	return C.GoString(C.custom_str(C.CString(quote)))
 }
 
