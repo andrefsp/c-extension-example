@@ -1,6 +1,6 @@
 from distutils.core import setup, Extension
 
-module1 = Extension('xyzzy', sources=['demo.c'])
+module1 = Extension('xyzzy', sources=['_python_ext.c'])
 
 setup(
     name='Python_xyzzy',
