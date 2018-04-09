@@ -3,10 +3,10 @@
 
 
 // Return string lenght
-int str_len(char *quote) {
+int custom_str_len(char *quote) {
     return strlen(quote);
 }
 
-char* str(char *quote) {
+char* custom_str(char *quote) {
     return quote;
 }

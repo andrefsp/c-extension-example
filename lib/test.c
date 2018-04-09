@@ -4,18 +4,18 @@
 #include <stdbool.h>
 
 // Custom
-#include <custom.h>
+#include <xyzzy.h>
 
 void test_str_len() {
     char *quote = "andre";
-    const int len = str_len(quote);
+    const int len = custom_str_len(quote);
     assert(len == 5);
 }
 
 
 void test_str() {
     char *quote = "andre";
-    char *result = str(quote);
+    char *result = custom_str(quote);
     assert(quote == result);
 }
 
